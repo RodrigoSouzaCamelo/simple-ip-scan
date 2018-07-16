@@ -15,6 +15,6 @@ for i in range(0, len(list)):
 	if(list[i][0].split('.')[3] == "1"):
 		continue
 
-	print("DISPOSITIVO ONLINE >>      IP: ", list[i][0],"        MAC: ", list[i][1])
+	print("CONNECTED DEVICE >>      IP: ", list[i][0],"        MAC: ", list[i][1])
 
-print("\nExistem ",len(list) - 1," dispositivos online neste momento.")
+print("\nThere are ",len(list) - 1," devices connected at this moment.")
